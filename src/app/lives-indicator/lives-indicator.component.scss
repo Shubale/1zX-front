@@ -1,0 +1,21 @@
+.lives-indicator {
+	width: 40px;
+	height: 200px;
+	margin: 20px;
+	box-shadow: inset 0px 0px 8px 4px rgba(0, 0, 0, 1);
+}
+
+.last {
+	border-end-end-radius: 10px;
+}
+
+.first {
+	border-bottom-left-radius: 10px;
+}
+
+.green {
+	background-color: green;
+}
+.gray {
+	background-color: gray;
+}

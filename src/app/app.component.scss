@@ -1,0 +1,50 @@
+body {
+	background-color: blue !important;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+.contestant {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: solid 1px black;
+	margin: 20px;
+	line-height: 1.5;
+	background-color: #36454f;
+	box-shadow: 8px 8px 24px 0px black;
+	border-radius: 10px;
+}
+
+.contestant-info {
+	border-radius: 10px 10px 0 0;
+	width: calc(100% - 50px);
+	margin-top: 20px;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: solid 1px black;
+	background-color: #120A8F;
+	color: beige;
+	text-transform: uppercase;
+	font-family: fantasy;
+	letter-spacing: 1.5px;
+	font-size: 30px;
+	box-shadow: inset 0px 0px 12px 4px rgba(0, 0, 0, 1);
+	animation: linear filter;
+}
+
+.contestant-outed {
+	filter: brightness(50%);
+	animation: linear filter;
+}
+
+.lives-container {
+	display: flex;
+}
